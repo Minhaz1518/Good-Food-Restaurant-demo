@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(224, 226, 226);
+}
+#txt1 
+{
+    text-align:center ;
+    font-size: 25px;
+    font-family:monospace;
+    opacity: 0.8;
+}
+
+#txt2
+{
+    text-align:center ;
+    text-decoration-style: solid;
+    font-size: 35px;
+    font-family:"Courier New", Courier, monospace;
+    margin-top: 10px;
+}
+
+.container
+{
+    margin-top: 50px;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.child1 , .child2 , .child3
+{
+    width: 300px;
+    height: 300px;
+}
+/* Inner child - 1 */
+.c1 , .c2
+{
+      height: 200px;
+      width:300px;
+}
+
+
+/* inner c1 */
+.c1{
+    background-image: url(./assets/pizza.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 3px;
+
+}
+
+#img1
+{
+    height: 200px;
+    width:300px;
+    background-image: url(./assets/biriyani.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 3px;
+}
+
+#img2
+{
+    height: 200px;
+    width:300px;
+    background-image: url(./assets/burger.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 3px;
+}
+
+/* inner c2 */
+.c2
+{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5px;
+}
+
+button{
+    padding: 5px , 8px , 5px , 8px ;
+    border: none;
+    font-size: 15px;
+    font-family:Georgia;
+}
+
+#div2{ 
+    font-family: "Work Sans";
+   font-style: normal;
+   font-weight: 600;
+}
+
+#div3{
+    font-family: "Work Sans";
+    font-size: 12px;
+    font-style: normal;
+    opacity: 0.7;
+}
+
+
+/* button */
+
+#last_but
+{
+    display: flex;
+    justify-content: center;
+}
+
+input[type="submit"]
+{
+    color: #ffffffe2;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 20px;
+    background: #4fef1a;
+    border: none;
+    padding: 5px , 8px , 5px , 8px ;
+    border-radius: 7px;
+
+
+}
